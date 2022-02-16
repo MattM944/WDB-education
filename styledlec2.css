@@ -1,0 +1,40 @@
+/* * {
+    color: red;
+    background-color: black;
+    font-size: 50px;
+}
+
+h1 {
+    color: white;
+    font-size:100px;
+}
+
+p{
+    color: white;
+    font-size: 50px;
+} */
+
+.box-container {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    font-size:50px;
+    width: 300px;
+    background-color: black;
+    color: white;
+}
+
+.box-one {
+    background-color:red;
+    color: darkolivegreen;
+}
+
+.box-two {
+    background-color:green;
+    color:blueviolet;
+}
+
+.box-three {
+    background-color: paleturquoise;
+    color:midnightblue;
+}

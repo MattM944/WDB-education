@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: aquamarine;
+    width: 30 px;
+}
+
+.bee{
+    color:lightskyblue;
+    font-size: 40px;
+    letter-spacing: 20px;
+    line-height: 40px;
+    font-weight: 700;
+    font-family: cursive;
+    text-align: center;
+
+    text-decoration-line: underline;
+    text-decoration-color:lightsalmon;
+    text-decoration-style:dashed;
+    text-decoration-thickness: 5px;
+    
+    text-decoration: underline rgb(108, 108, 221) dotted 2px;
+    text-transform:uppercase; 
+}
+
+.landscape{
+    width: 400px;
+    height: 350px;
+    z-index: 1000;
+    background-color:rgb(108, 108, 221);
+    opacity: .5;
+    box-shadow: 4;
+    border-radius: 30px;
+    padding: 30px;
+    border: 10px solid yellowgreen;
+    margin: 40px;
+}
