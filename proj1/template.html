@@ -1,0 +1,67 @@
+<!--
+    Please note that this HTML template is a starting point!
+    It is absolutely not comprehensive, and you will almost surely have to add more.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./template.css">
+    <title>Your Personal Website: Template 3</title>
+</head>
+<body>
+    <div class="splash-page">
+        <div class="navbar">
+            <div class="logo">MM</div>
+            <div class="nav">
+                <!-- <div class="nav-button" > About </div> -->
+                <input type="button" value="About Me"onClick="document.getElementById('about_me').scrollIntoView();" />
+                <!-- <div class="nav-button"> Portfolio </div> -->
+                <input type="button" value="Portfolio"onClick="document.getElementById('portfolio').scrollIntoView();" />
+                <!-- <div class="nav-button"> Contact </div> -->
+                <input type="button" value="Contact"onClick="document.getElementById('contact').scrollIntoView();" />
+            </div>
+        </div>
+        <div class="headline">Hello! I'm Matthew and I study Computer Science at UC Berkeley.</div>
+        <img class="profile" src="IMG_1202.jpg" alt="Picture of Matthew Mojica">   
+        <div class="rectangle1"></div>
+    </div>
+    <div class="about_me" id="about_me">
+        <h1>About Me</h1>
+        <p>Hi! My name is Matthew and I am a sophomore student at UC Berkeley studying Computer Science. 
+            I have a passion for the intersection between technology and biology. I love learning about the 
+            medical possibilities made possible by the amazing revolutions in technology! Feel free to reach 
+            out to me about any opportunities involving technology and it's application to health solutions.
+        </p>
+    </div>
+    <div class="portfolio" id="portfolio">
+        <h1>Portfolio</h1>
+        <div class="proj-col">
+            <div class="proj-name">Gitlet</div>
+            <p>Gitlet was built in Java as a version control system that can
+                 track and commit file changes, revert to previous versions, and create branches.</p>
+        </div>
+        <div class="proj-col">
+            <div class="proj-name">Sproul.Club</div>
+            <p>Sproul.Club is a website designed to connect UC Berkeley students with clubs and 
+                organizations on campus to foster community and fellowship. I worked as a backend-engineer 
+                using Python and MongoDB to implement various social features.</p>
+        </div>
+        <div class="proj-col">
+            <div class="proj-name">Berkeley Undergraduate Research</div>
+            <p>Since Fall 2020, I have been working in the lab of Dr. Waqas Khalid who specializes in the 
+                field of nanotechnology. I work as a full-stack engineer on our biosensing project aimed at
+                creating better solutions for nanoparticle detection. 
+            </p>
+        </div>
+        <div class="contact" id="contact">
+            <h1>Contact Me!</h1>
+            <p>Feel free to reach me at my email: matthew.mojica02@berkeley.edu. 
+                You may also find me at my Instagram handle @mattchagreentea.</p>
+    </div>
+
+    </div>
+</body>
+</html>
